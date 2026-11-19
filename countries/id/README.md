@@ -1,4 +1,6 @@
-# 印尼长账交接入口
+# 印尼｜离线复算经营日报
+
+[印尼知识库](../../03-印尼/README.md) · [六个历史对话](../../04-对话索引/README.md)
 
 **接日报**先跑一次下方离线例子，再读[每日运行与异常处理](operations.md)。**接月切或目标**先选要复现的月份，读[项目地图](projects.md)与[规则变更记录](decisions.md)。**查旧版**按交付物原名在[历史目录](inventory.md)定位。本文档基线为 2026-11-19，最近一次验证使用 11 月 18 日业务数据。
 
@@ -18,4 +20,4 @@ python countries/id/tools/replay.py countries/id/examples/2026-11-18.json
 
 应得到整体实收 794,939.15 元、序时达成 102.1%，常规人催 44.74 万元、103.7%，冻结＋Other 9.96 万元、120.0%。这一步验证汇总和群消息口径。流水唯一性和财务差额另有 SQL 与核验步骤。
 
-Codex 可从[印尼长账交接技能](../../.agents/skills/id-long-collections/SKILL.md)进入，或直接让它“读 countries/id/README.md，用指定截止日快照复算日报，解释最大的两个缺口，附上口径和未决项”。继续维护请对照[指标定义](metrics.md)、[通用比较方法](../../common/analysis.md)与[维护约定](../../common/maintenance.md)。
+Codex 可从[印尼长账分析技能](../../.agents/skills/id-long-collections/SKILL.md)进入，或直接让它“读 countries/id/README.md，用指定截止日快照复算日报，解释最大的两个缺口，附上口径和未决项”。继续维护请对照[指标定义](metrics.md)、[通用比较方法](../../common/analysis.md)与[维护约定](../../common/maintenance.md)。

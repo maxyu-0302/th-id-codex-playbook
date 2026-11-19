@@ -1,13 +1,21 @@
-# 长账龄策略与经营分析交接库
+# 长账龄业务知识库
 
-接手泰国日报，从[运行手册](countries/th/operations.md)开始；接到经营问题，从[泰国项目地图](countries/th/projects.md)选专题；追查某次历史交付，查[来源目录](countries/th/inventory.tsv)。本次整理截至 2026-11-19，业务数据的截止日见各专题。
+这里收录泰国、印尼长账团队用 Codex 完成的经营日报、净实收对账、月度目标、分案策略和试验。**看本国业务先点国家，跨国对口径点通用方法，记得聊天标题就点对话索引。**
 
-| 任务 | 先读 | 产出 |
+| 版块 | 你能在这里做什么 |
+|---|---|
+| [泰国长账](02-泰国/README.md) | 看实收和序时缺口，拆人工新老案，核财务净实收，查 D61／D91 换案和 RCS 试验 |
+| [印尼长账](03-印尼/README.md) | 复算日报，核专催与委外目标，对清 Other 回款，预测全催本金，排查分案账龄 |
+| [通用方法](01-通用方法/README.md) | 查指标怎么算，把实收变化拆成规模和效率，统一净实收更新，评估试验和策略收益 |
+| [历史对话索引](04-对话索引/README.md) | 按六个原对话名查对应成果、关键决定和仍需复核的问题 |
+
+## 按手头的问题找资料
+
+| 我想知道 | 泰国 | 印尼 |
 |---|---|---|
-| 解释实收下降、目标落后 | [指标与比较方法](common/analysis.md)、[泰国口径](countries/th/metrics.md) | 同期分案、实收、实收率对照及缺口解释 |
-| 决定是否扩量、调目标 | [决策记录](countries/th/decisions.md)、[试验与复盘](countries/th/studies.md) | 明确建议、依据、成本与翻转条件 |
-| 接手每日交付 | [日报与发布](countries/th/operations.md) | 经核验的 HTML、发布回执、群报 |
-| 用 Codex 开始任务 | [项目指引](AGENTS.md)、[分析技能](.agents/skills/long-age-review/SKILL.md) | 可复核的分析或交付 |
-| 接手印尼日报、预测或目标 | [国家入口](countries/id/README.md)、[历史专题](countries/id/projects.md)、[指标](countries/id/metrics.md) | 复算经营达成、对账、同池测算及决策记录 |
+| 昨天收到多少？哪个队列拖累达成？ | [日报与群报](countries/th/operations.md) · [序时达成读法](02-泰国/序时达成.md) | [日报与异常处理](countries/id/operations.md) · [离线复算示例](countries/id/README.md) |
+| 扣掉成本还剩多少？为什么和财务有差？ | [净实收更新与对账](02-泰国/净实收.md) | [净实收更新与对账](03-印尼/净实收.md) |
+| 分案量、目标或作业方式应不应该调？ | [月切、节点与触达试验](countries/th/studies.md) | [目标测算与错分排查](03-印尼/目标与分案核验.md) · [同客群策略比较](countries/id/knowledge/strategy-comparison.md) |
+| 找一份旧工作簿、SQL 或历史版本 | [泰国专题目录](countries/th/projects.md) · [原文件索引](countries/th/inventory.tsv) | [印尼专题目录](countries/id/projects.md) · [原文件索引](countries/id/inventory.md) |
 
-来源目录记录交付物在授权业务工作区的位置。仓内包含经过筛选的只读 SQL、业务知识和历史核验值。复跑日报还需业务运行包、当月批准目标及本人的数仓访问权限。
+日常看最新业绩用业务看板；这里保存口径、运行说明和带日期的复算样例。原始工作簿可按索引中的文件名在授权业务盘查找。本次整理于 **2026 年 11 月 19 日**。

@@ -1,4 +1,4 @@
-# 日报接手手册
+# 泰国｜每日生成、核验与发布
 
 泰国工作区运行包位于 `outputs/泰国长账每日监控_20261111/`。先读包内 `docs/使用与维护.txt`、`docs/V4验收清单.json`、`data/run_status.json`。准备 Python、Node、泰国数仓只读技能和有效SSO。正式目标对照 `config/YYYY-MM.json` 的版本、源工作簿及哈希，新月份要取得新目标。
 
