@@ -8,6 +8,6 @@
 | 决定是否扩量、调目标 | [决策记录](countries/th/decisions.md)、[试验与复盘](countries/th/studies.md) | 明确建议、依据、成本与翻转条件 |
 | 接手每日交付 | [日报与发布](countries/th/operations.md) | 经核验的 HTML、发布回执、群报 |
 | 用 Codex 开始任务 | [项目指引](AGENTS.md)、[分析技能](.agents/skills/long-age-review/SKILL.md) | 可复核的分析或交付 |
-| 印尼团队补充 | [国家接入说明](countries/id/README.md) | 印尼自己的项目地图、口径与决策日志 |
+| 接手印尼日报、预测或目标 | [国家入口](countries/id/README.md)、[历史专题](countries/id/projects.md)、[指标](countries/id/metrics.md) | 复算经营达成、对账、同池测算及决策记录 |
 
 来源目录记录交付物在授权业务工作区的位置。仓内包含经过筛选的只读 SQL、业务知识和历史核验值。复跑日报还需业务运行包、当月批准目标及本人的数仓访问权限。

@@ -1,0 +1,221 @@
+{
+  "month": "2026-11",
+  "currency": "CNY",
+  "use": "历史复核，换月须重新配置",
+  "regular": [
+    {
+      "stage": "M2",
+      "mode": "专催",
+      "tracking": 277845.39,
+      "management": 256203.81686213892,
+      "backsolve": 314097.04422573
+    },
+    {
+      "stage": "M2",
+      "mode": "委外",
+      "tracking": 228358.194197138,
+      "management": 209976.35,
+      "backsolve": 228358.194197138
+    },
+    {
+      "stage": "M2",
+      "mode": "AI",
+      "tracking": 31193.1990614179,
+      "management": 31193.1990614179,
+      "backsolve": 32752.8590144888
+    },
+    {
+      "stage": "M3",
+      "mode": "专催",
+      "tracking": 28011.8,
+      "management": 39631.90009475,
+      "backsolve": 43683.4001929525
+    },
+    {
+      "stage": "M3",
+      "mode": "委外",
+      "tracking": 162412.35,
+      "management": 162412.35,
+      "backsolve": 155148.460911885
+    },
+    {
+      "stage": "M3",
+      "mode": "AI",
+      "tracking": 7910.03169726162,
+      "management": 7910.03169726162,
+      "backsolve": 8305.5332821247
+    },
+    {
+      "stage": "M3",
+      "mode": "纯净",
+      "tracking": 723.966296566287,
+      "management": 723.966296566287,
+      "backsolve": 723.966296566287
+    },
+    {
+      "stage": "M4-7",
+      "mode": "专催",
+      "tracking": 22499.06,
+      "management": 15188.149997444443,
+      "backsolve": 23805.7305176639
+    },
+    {
+      "stage": "M4-7",
+      "mode": "AI",
+      "tracking": 5198.16936167311,
+      "management": 5198.16936167311,
+      "backsolve": 5458.07782975677
+    },
+    {
+      "stage": "M4-7",
+      "mode": "纯净",
+      "tracking": 44906.9285567062,
+      "management": 44906.9285567062,
+      "backsolve": 44906.9285567062
+    },
+    {
+      "stage": "M7+",
+      "mode": "AI",
+      "tracking": 137100.2655971,
+      "management": 137100.2655971,
+      "backsolve": 137100.2655971
+    },
+    {
+      "stage": "M7+",
+      "mode": "纯净",
+      "tracking": 213459.60656346,
+      "management": 213459.60656346,
+      "backsolve": 213459.60656346
+    }
+  ],
+  "queue_weights": [
+    {
+      "stage": "M2",
+      "mode": "专催",
+      "queue_name": "M2-SCQ",
+      "weight": 1
+    },
+    {
+      "stage": "M3",
+      "mode": "专催",
+      "queue_name": "M2-SCQ",
+      "weight": 1
+    },
+    {
+      "stage": "M4-7",
+      "mode": "专催",
+      "queue_name": "M2-SCQ",
+      "weight": 1
+    },
+    {
+      "stage": "M2",
+      "mode": "委外",
+      "queue_name": "M2-CPU",
+      "weight": 0.5
+    },
+    {
+      "stage": "M2",
+      "mode": "委外",
+      "queue_name": "M2-EDN",
+      "weight": 0.5
+    },
+    {
+      "stage": "M3",
+      "mode": "委外",
+      "queue_name": "M3-EDN",
+      "weight": 0.5
+    },
+    {
+      "stage": "M3",
+      "mode": "委外",
+      "queue_name": "M3-QIN",
+      "weight": 0.5
+    },
+    {
+      "stage": "M2",
+      "mode": "AI",
+      "queue_name": "M2-BY-AI",
+      "weight": 0.5
+    },
+    {
+      "stage": "M2",
+      "mode": "AI",
+      "queue_name": "M2-SD-AI",
+      "weight": 0.5
+    },
+    {
+      "stage": "M3",
+      "mode": "AI",
+      "queue_name": "M3-SD-AI",
+      "weight": 0.5
+    },
+    {
+      "stage": "M3",
+      "mode": "AI",
+      "queue_name": "M3-WIZ-AI",
+      "weight": 0.5
+    },
+    {
+      "stage": "M4-7",
+      "mode": "AI",
+      "queue_name": "M4-SD-AI-dje",
+      "weight": 1
+    },
+    {
+      "stage": "M7+",
+      "mode": "AI",
+      "queue_name": "M4-SD-AI-dje-211",
+      "weight": 1
+    },
+    {
+      "stage": "M3",
+      "mode": "纯净",
+      "queue_name": "M3-pure",
+      "weight": 1
+    },
+    {
+      "stage": "M4-7",
+      "mode": "纯净",
+      "queue_name": "M4-Pure",
+      "weight": 0.06740234488471904
+    },
+    {
+      "stage": "M4-7",
+      "mode": "纯净",
+      "queue_name": "M4-Pure-91-210",
+      "weight": 0.9325976551152809
+    },
+    {
+      "stage": "M7+",
+      "mode": "纯净",
+      "queue_name": "M4-Pure",
+      "weight": 0.0869962379652819
+    },
+    {
+      "stage": "M7+",
+      "mode": "纯净",
+      "queue_name": "M4-Pure-211",
+      "weight": 0.9130037620347181
+    }
+  ],
+  "freeze_parent_including_manual": {
+    "tracking": 160000,
+    "management": 160000,
+    "backsolve": 130000
+  },
+  "manual_component": {
+    "queue_name": "M2-FRZ-REL-COL",
+    "start_date": "2026-11-17",
+    "targets": {
+      "tracking": 30000,
+      "management": 30000,
+      "backsolve": 0
+    },
+    "note": "原冻结与Other共用13万元。11月17日起，冻结人工M2-FRZ-REL-COL另设追踪及主管经理考核各3万元，净实收倒推0元。按上线后作业日拆分。"
+  },
+  "totals": {
+    "tracking": 1319618.961331323,
+    "backsolve": 1337800.06718557,
+    "management": 1283904.7340885184
+  }
+}

@@ -1,0 +1,15 @@
+country,month,version,approval_status,rule_id,stage,dpd_min,dpd_max,amount_min_idr,amount_max_idr,amount_min_inclusive,amount_max_inclusive,cscore_filter,mode,share,queues,source_sheet,source_cell
+id,2026-10,v20261022-01,confirmed,ID-202610-01,M2,31,60,0,800000,False,True,,AI,1,M2-SD-AI,分案概览,C68:C69
+id,2026-10,v20261022-01,confirmed,ID-202610-02,M2,31,60,800000,6000000,False,False,,委外,1,M2-CPU|M2-EDN,分案概览,D68:D69
+id,2026-10,v20261022-01,confirmed,ID-202610-03,M2,31,60,6000000,,False,True,,专催,1,M2-SCQ,分案概览,E68:E69
+id,2026-10,v20261022-01,confirmed,ID-202610-04,M3,61,90,0,200000,False,True,,纯净,1,M3-pure,分案概览,C74:C75
+id,2026-10,v20261022-01,confirmed,ID-202610-05,M3,61,90,200000,1000000,False,True,,AI,1,M3-SD-AI,分案概览,D74:D75
+id,2026-10,v20261022-01,confirmed,ID-202610-06,M3,61,90,1000000,8000000,False,True,,委外,1,M3-EDN|M3-QIN,分案概览,E74:E75
+id,2026-10,v20261022-01,confirmed,ID-202610-07,M3,61,90,8000000,,False,True,,专催,1,M2-SCQ,分案概览,F74:F75
+id,2026-10,v20261022-01,confirmed,ID-202610-08,M4-7,91,210,0,300000,False,True,,纯净,1,M4-Pure,分案概览,C80:C81
+id,2026-10,v20261022-01,confirmed,ID-202610-09,M4-7,91,210,300000,8000000,False,True,,AI,0.2,M4-SD-AI-dje,分案概览,E80:E81
+id,2026-10,v20261022-01,confirmed,ID-202610-10,M4-7,91,210,300000,8000000,False,True,,纯净,0.8,M4-Pure-91-210,分案概览,E80:E81
+id,2026-10,v20261022-01,confirmed,ID-202610-11,M4-7,91,210,8000000,,False,True,,专催,1,M2-SCQ,分案概览,G80:G81
+id,2026-10,v20261022-01,confirmed,ID-202610-12,M7+,211,,0,300000,False,True,,纯净,1,M4-Pure,分案概览,C80:C82
+id,2026-10,v20261022-01,confirmed,ID-202610-13,M7+,211,,300000,,False,True,,AI,0.4,M4-SD-AI-dje-211,分案概览,E82
+id,2026-10,v20261022-01,confirmed,ID-202610-14,M7+,211,,300000,,False,True,,纯净,0.6,M4-Pure-211,分案概览,E82

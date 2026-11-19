@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "as_of": "2026-11-18"
+  },
+  "main": [
+    {
+      "stage": "M4-7",
+      "mode": "纯净",
+      "mtd_cash_cny": 25369.976237820207,
+      "workday_tracking_mtd_target_cny": 26944.157134023724,
+      "tracking_target_cny": 44906.9285567062
+    },
+    {
+      "stage": "M4-7",
+      "mode": "专催",
+      "mtd_cash_cny": 8504.84472221133,
+      "workday_tracking_mtd_target_cny": 13499.436000000002,
+      "tracking_target_cny": 22499.06
+    },
+    {
+      "stage": "M4-7",
+      "mode": "AI",
+      "mtd_cash_cny": 8206.652720281534,
+      "workday_tracking_mtd_target_cny": 3118.9016170038662,
+      "tracking_target_cny": 5198.16936167311
+    },
+    {
+      "stage": "M3",
+      "mode": "委外",
+      "mtd_cash_cny": 127167.19453166758,
+      "workday_tracking_mtd_target_cny": 97447.41,
+      "tracking_target_cny": 162412.35
+    },
+    {
+      "stage": "M7+",
+      "mode": "AI",
+      "mtd_cash_cny": 89916.57805022207,
+      "workday_tracking_mtd_target_cny": 82260.15935826,
+      "tracking_target_cny": 137100.2655971
+    },
+    {
+      "stage": "M7+",
+      "mode": "纯净",
+      "mtd_cash_cny": 104056.79386909121,
+      "workday_tracking_mtd_target_cny": 128075.763938076,
+      "tracking_target_cny": 213459.60656346
+    },
+    {
+      "stage": "M2",
+      "mode": "专催",
+      "mtd_cash_cny": 143571.74771093918,
+      "workday_tracking_mtd_target_cny": 166707.234,
+      "tracking_target_cny": 277845.39
+    },
+    {
+      "stage": "M3",
+      "mode": "专催",
+      "mtd_cash_cny": 20549.67027930402,
+      "workday_tracking_mtd_target_cny": 16807.08,
+      "tracking_target_cny": 28011.8
+    },
+    {
+      "stage": "M2",
+      "mode": "AI",
+      "mtd_cash_cny": 16334.405609935708,
+      "workday_tracking_mtd_target_cny": 18715.91943685074,
+      "tracking_target_cny": 31193.1990614179
+    },
+    {
+      "stage": "M2",
+      "mode": "委外",
+      "mtd_cash_cny": 147566.4778820737,
+      "workday_tracking_mtd_target_cny": 137014.9165182828,
+      "tracking_target_cny": 228358.194197138
+    },
+    {
+      "stage": "M3",
+      "mode": "AI",
+      "mtd_cash_cny": 3545.6222610692216,
+      "workday_tracking_mtd_target_cny": 4746.019018356972,
+      "tracking_target_cny": 7910.03169726162
+    },
+    {
+      "stage": "M3",
+      "mode": "纯净",
+      "mtd_cash_cny": 549.3471382932597,
+      "workday_tracking_mtd_target_cny": 434.3797779397722,
+      "tracking_target_cny": 723.966296566287
+    }
+  ],
+  "freeze_monitor": {
+    "main": [
+      {
+        "stage": "冻结释放组",
+        "mode": "冻结释放",
+        "mtd_cash_cny": 99599.84161267473,
+        "workday_tracking_mtd_target_cny": 83000.0,
+        "tracking_target_cny": 160000
+      }
+    ]
+  },
+  "receipt_reconciliation": {
+    "policy": "official-tag-period-reconciled-cross-batch-v1",
+    "date": "2026-11-18",
+    "duplicates": 336,
+    "deducted_cny": 6184.942100068603,
+    "excluded_freeze_cny": 6992.680206856251,
+    "normal_cny": 704866.9315371788,
+    "other_cny": 90072.22108840496,
+    "total_cny": 794939.1526255837,
+    "finance_cny": 794955.9707981439,
+    "difference_cny": -16.8181725601336
+  }
+}
